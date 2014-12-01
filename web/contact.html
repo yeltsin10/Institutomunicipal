@@ -4,76 +4,77 @@
 <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-	<!-- Basic Page Needs
+        <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>Contacto</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+        <meta charset="utf-8">
+        <title>Instituto Municipal de la Mujer</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-	<!-- Mobile Specific Metas
+        <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS
+        <!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/ico-moon.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="css/swipebox.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/ico-moon.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/swipebox.css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+        <!--[if lt IE 9]>
+                <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Favicons
+        ================================================== -->
+        <link rel="shortcut icon" href="images/favicon.ico">
 
-</head>
+    </head>
 <body class="home">
 
 	<!-- Header
 	================================================== -->
-	<header>
-		<div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="img/logo.png" alt=""></a>
-			</div>
-			<div class="right">
-				<div class="social-top">
-					<ul>
-						<li><a href="#" class="icon-facebook"></a></li>
-						<li><a href="#" class="icon-twitter"></a></li>
-						<li><a href="#" class="icon-google-plus"></a></li>
-						<li><a href="#" class="icon-feed-2"></a></li>
-						<li><a href="#" class="icon-vimeo"></a></li>
-						<li><a href="#" class="icon-flickr"></a></li>
-						<li><a href="#" class="icon-pinterest"></a></li>
-					</ul>
-				</div>
-				<nav class="main-nav">
-			  		<ul class="nav-bar" id="nav-bar">
-			  			<li class="active has-flyout">
-			  				<a href="index.html">Inicio</a>
-			  			</li>
-                                                <li class="has-flyout">
-			  				<a href="about.html">Nosotros</a>
-						</li>
-                                                <li class="has-flyout">
-			  				<a href="elements.html">Sala de Prensa</a>
-			  			</li>
-			  			<li class="has-flyout">
-			  				<a href="blog.html">Blog</a>
-							</li>
-			  			<li><a href="contact.html">Contacto</a></li>
-			  		</ul>
-				</nav>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</header>
+	 <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#"><img src="img/Logo2.png" alt=""></a>
+                </div>
+                <div class="right">
+                    <nav class="main-nav">
+                        <ul class="nav-bar" id="nav-bar">
+                            <li class="active has-flyout">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="has-flyout">
+                                <a href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="has-flyout">
+                                <a href="SalaPrensa.html">Sala de Prensa</a>
+                            </li>
+                            <li class="has-flyout">
+                                <a href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="has-flyout">
+                                <a href="atencion.html">Aencion en Linea</a>
+                            </li>
+                            <li class="has-flyout">
+                                <a href="contact.html">Contacto</a>
+                            </li>
+                            <li><a href="https://www.facebook.com/pages/IMM-Torreón/1425006847744014?fref=ts"><img src="img/LogoFace2.png"></a></li>
+
+                            <li><a href="https://twitter.com/IMMTorreon"><img src="img/LogoTw2.png"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="clearfix"></div>
+
+
+        </header>
+        <div class="margin">
 
 	<!-- Body
 	================================================== -->
@@ -85,61 +86,24 @@
 			</div>
 		</div>
 		<div id="gmap"></div>
-		<div class="container">
-			<div class="six columns">
-				<h4>Send us a message</h4>
-				<div id="err-name" class="alert error">Please enter your name</div>
-				<div id="err-email" class="alert error">Please enter an email address</div>
-				<div id="err-emailvld" class="alert error">Error! Please enter a valid email address</div>
-				<div id="err-timedout" class="alert error">Error! Request timed out. Please try again</div>
-				<div id="error" class="alert error"></div>
-				<div id="email-success" class="alert success">Thank you! We have received your message and will get back to you shortly!</div>
-				<form id="ajax-form" action="submit.php" method="post">
-					<input type="text" name="name" id="name" placeholder="Name" />
-					<input type="email" name="email" id="email" placeholder="Email" />
-					<input type="text" name="subject" placeholder="Subject" />
-					<textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
-					<a href="#" id="send" class="button">Send</a>
-				</form>
-			</div>
-			<div class="ten columns">
-				<h4>We are here for you</h4>
-				<p>Sed sapien nulla, adipiscing id eleifend nec, scelerisque et sapien. Donec eu tortor eget tellus tincidunt auctor eget ac augue. Mauris consequat vestibulum interdum. Praesent non magna eu metus blandit consequat id quis velit. Suspendisse fermentum sollicitudin sodales. Donec vitae lectus dolor. Maecenas fermentum rutrum est, vel molestie odio imperdiet quis. Donec ut ipsum non metus placerat bibendum et a enim.</p>
-				<div class="contact-info">
-					<h6>Address</h6>
-					1234 Magic Blvd.<br />
-					Miami, FL 33181<br />
-					United States
-				</div>
-				<div class="contact-info">
-					<h6>Phone</h6>
-					305-555-5555
-				</div>
-				<div class="contact-info">
-					<h6>Email</h6>
-					<a href="#">email@domain.com</a>
-				</div>
-			</div>
-		</div>
+		
 	</div>
 	<div class="clearfix"></div>
-	
+        </div>
 	<!-- Footer
 	================================================== -->
-	<footer>
-		<div class="social">
-			<ul>
-				<li><a href="#" class="icon-facebook"></a></li>
-				<li><a href="#" class="icon-twitter"></a></li>
-				<li><a href="#" class="icon-pinterest"></a></li>
-				<li><a href="#" class="icon-linkedin"></a></li>
-			</ul>
-		</div>
-		<div class="copy">
-			Copyright &copy; 2013 Instituto Municipal de la Mujer
-		</div>
-		<div class="clearfix"></div>
-	</footer>
+	 <footer>
+            <div class="footerp">
+            <span class="PiePag">
+                <br>Colón y Delicias s/n Col. Luis Echeverría Álvarez
+                <br>TorreóN. Coahuila. C.P. 27220
+                <br>Teléfono 500.74.19
+                <br>
+                Copyright &copy; 2013 Instituto Municipal de la Mujer
+            </span>
+            </div>
+            <div class="clearfix"></div>
+        </footer>
 	
 	<!-- Javascript/jQuery
 	================================================== -->
